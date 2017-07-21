@@ -57,7 +57,7 @@ img{
     text-align: center;
     padding: 60px 0 120px 0;
     font-size: 4em;
-    background-image: url("file:///Users/joshuamay/Desktop/assignments/ibeer_starter_files/img/header-img.jpg");
+    background-image: url('./img/header-img.jpg');
     background-size: cover;
     background-position: right bottom;
     /*to-do is done for this segment*/
@@ -117,6 +117,7 @@ main{
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     flex-basis: 50%;
     margin-top: -40px;
+
 }
 
 
@@ -125,7 +126,7 @@ aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    flex-basis: 30%;
+    flex-basis: 20%;
     margin-top: -40px;
 }
 
@@ -150,7 +151,14 @@ article{
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     padding: 20px;
     margin-bottom: 20px;
+    font-size: 15px;
 }
+
+article footer{
+  text-align: center;
+  color: #444;
+}
+
 
 
 article h2{
@@ -175,14 +183,19 @@ article time{
 
 article img{
   float: right;
+  width: 50%;
+
+
 }
 
 
 #site-footer{
-
     background: #333;
     color: white;
     display: flex;
     justify-content: center;
     padding: 40px 40px;
+    text-align: center
+
+
 }
