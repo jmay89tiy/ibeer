@@ -57,7 +57,7 @@ img{
     text-align: center;
     padding: 60px 0 120px 0;
     font-size: 4em;
-    background-image: url('./img/header-img.jpg');
+    background-image: url("img/header-img.jpg");
     background-size: cover;
     background-position: right bottom;
     /*to-do is done for this segment*/
